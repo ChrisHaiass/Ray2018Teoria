@@ -81,7 +81,7 @@
   .btn-common {
     font-size: 14px;
     color: #0099ae;
-    border: 1px solid #0099ae;
+    border: 1px solid   #990000;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     padding: 10px 25px;
@@ -532,9 +532,28 @@ ul.sub-menu {
 /*************************
 *******Home Page******
 **************************/
+#home-slider2 {
+  background: url(../resources/image/home/slider-bg.png) 0 100% repeat-x;
+  text-align:top;
+}
+td {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 0 20px;
+    text-align: justify;
+    vertical-align: top;
+    width: 50%;
+}
+
+td.first {
+    border-right: 5px solid #4BB495  ;
+}
+
+}
 #home-slider {
   background: url(../resources/image/home/slider-bg.png) 0 100% repeat-x;
   position: relative;
+
 }
 
 #home-slider .main-slider {
@@ -547,6 +566,8 @@ ul.sub-menu {
   top: 50px;
   left: 0;
   width: 450px;
+  
+
 }
 
 .animate-in .slide-text {
