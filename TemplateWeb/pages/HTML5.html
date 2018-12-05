@@ -83,7 +83,7 @@
 					<div class="collapse navbar-collapse">
 						<ul class="nav navbar-nav navbar-right">
 							<li class="active"><a href="../index.html">Inicio</a></li>
-                             <li class="dropdown"><a href="pages/videojuegos.html">Videojuegos<i class="fa fa-angle-down"></i></a>
+                              <li class="dropdown"><a href="pages/videojuegos.html">Videojuegos<i class="fa fa-angle-down"></i></a>
 								<ul role="menu" class="sub-menu">
 									<li><a href="videojuegos/bricks.html">BRICKS</a></li>
 								</ul>
@@ -164,17 +164,97 @@
 				<div class="row">
 					<div class="main-slider">
 						<div class="slide-text">
-							<h1 style="color: black">Ejercicio 1 : MockUps & Recursos</h1>
+							<h1 style="color: black">¿Qué es HTML5?</h1>
 							<table>
 							   <tr>
-							   	<td class="first"><b><i style="font-family:Homer Simpson">En la manufactura y diseño, un mockup, mock-up, o maqueta es un modelo a escala o tamaño real de un diseño o un dispositivo, utilizado para la demostración, evaluación del diseño, promoción, y para otros fines. 
-							  </br>
-							   	Un mockup es un prototipo si proporciona al menos una parte de la funcionalidad de un sistema y permite pruebas del diseño.
-							   </br>
-							   	 Los mockups son utilizados por los diseñadores principalmente para la adquisición de comentarios por parte de los usuarios.
+							   	<td class="first"><b><i style="font-family:Homer Simpson">HTML5 (HyperText Markup Language, versión 5) es la quinta revisión importante del lenguaje básico de la World Wide Web, HTML.
+							   	</br> HTML5 especifica dos variantes de sintaxis para HTML: una «clásica», HTML (text/html), conocida como HTML5, y una variante XHTML conocida como sintaxis XHTML5 que deberá servirse con sintaxis XML (application/xhtml+xml). Esta es la primera vez que HTML y XHTML se han desarrollado en paralelo. 
+							   </br>La versión definitiva de la quinta revisión del estándar se publicó en octubre de 2014.
+                                Al no ser reconocido en viejas versiones de navegadores por sus nuevas etiquetas, se recomienda al usuario común actualizar su navegador a la versión más nueva, para poder disfrutar de todo el potencial que provee HTML5.
+                               </br>
+                               El desarrollo de este lenguaje de marcado es regulado por el Consorcio W3C.
 							   </b></i>
+</hr color="red">
+<H2 style="color: black">¿Ejemplos de HTML 5?</H2>
+<BLOCKQUOTE>Hola Mundo</BLOCKQUOTE> <b>Plantilla mínima de un archivo index.html</b>
 
-						<img src="mockup.png">
+<BLOCKQUOTE>DIV</BLOCKQUOTE> <b>La etiqueta div no es más que un contenedor para otras etiquetas.
+
+</hr> </br>
+Estos son los atributos mas importante de la etiqueta div:</b>
+<ul>
+<li><b>Id</b> - <i>Define una id para hacer referencia el div vía javascript</i></li>
+<li><b>Title</b> - <i>Muestra un titulo del elemento</i></li>
+<li><b>Style</b> - <i>Define estilo vía CSS inline</i></li>
+<li><b>Height</b> - <i>Altura del div. Es recomendable usar</i> CSS</li>
+<li><b>Width</b> - <i>Ancho del div. Es recomendable usa CSS</i></li></ul>
+<blockquote>INPUTS</blockquote> <b>Ejemplos de elementos de entrada o navegación</b>
+<ul>
+	<li><b>Botón Normal</b>:<button>Ejemplo</button></li>
+	<li><b>Botón radial</b>:<input type="radio" name="Ejemplo 1"> <input type="radio" name="Ejemplo 2"></b></li>
+	<li><b>Botón de selección desplegable</b>: <form style="display: inline-block;" name="formulario" method="post">
+  <select name="combo">
+    <option value="1">Opción 1</option>
+    <option value="2" selected>Opción 2</option> <!-- Opción por defecto -->
+    <option value="3">Opción 3</option>
+  </select></form></li>
+<li><b>Botón de selección</b>:<form style="display:  inline-block;"><fieldset><label><input type="radio" name="color" value="Azul">Azul</label>
+<label><input type="radio" name="color" value="Negro">Negro</label>
+<label><input type="radio" name="color" value="Amarillo">Amarillo</label></fieldset></form> </li>
+<li><b>Panel de entrada de texto</b>:<input type="text" name="Caja"> 
+<li><b>Sliders</b>:<input type="range" name="barra"> </li>
+</ul>
+<br>
+<BLOCKQUOTE>OUTPUTS</BLOCKQUOTE> <b>Ejemplos de elementos de visionado de datos</b>
+<ul>
+	<li><b>Campo de texto</b>:<h1 style="color: white">Esto es disney channel (H1) <h2 style="color: white">Esto no es disney channel (H2)</h2> <h3 style="color: white">Esto no sé lo que es (H3)</h3></li>
+		<li><b>Tablas</b>: <ul><li style="color: white">Las tablas son como las listas</li><li style="color: white">Y se dividen</li><li style="color: white">Así</li></ul></li>
+		<li><b>Imágenes</b>:<p style="color: white">Para insertar una imagen se utiliza la etiqueta < img src = "  " > </p>
+			<br> <img style="" src="htmll.png"></li>
+			<br>
+			<li><B>Barras de progreso</B>:<progress max=”100″ value=”80″ ></progress></li>
+<li><b>Modal</b>:
+<button id="myBtn">Abrir Modal</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content"> 
+    <span class="close">&times;</span>
+    <p>Soy un modal</p>
+    <script type="text/javascript">// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}</script>
+  </div>
+
+</div></li>
+</ul>
+<br>
+<br>
+						
 						<td><p><b>Descripción</b>:Esta página está ambientada en estilo fantasía. Tiene dierentes detalles de estilo y juega con la combinación de colores oscuros y brillantinos así como los traslúcidos.
 							</p>
 						</hr>
@@ -185,7 +265,7 @@
 						<li><b>Portfolio:</b> todavía en construcción.</li>
 					<li><b>TEMLP. CHEETSHEET:</b> todavía en construcción.</li></ul>
 					</hr>
-					<b>Mockup</b>: Es la imagen con su descripción en la columna izquierda. 
+				
 				    </br>
 				<b>Recursos</b>: En esta página web se han usado elementos como <i style="color: red"><b>HTML,CSS,JAVASCRIPT Y CANVA.</b></i>
 			</td></td>
