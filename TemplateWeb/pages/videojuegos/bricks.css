@@ -26,6 +26,7 @@ canvas#gameCanvas {
     width: 480px;
     height:320px;
     background-color: #cec6c6;
+    background-image: url("ventormenta.png");
     position: relative;
     top:10px;
     display: block;
