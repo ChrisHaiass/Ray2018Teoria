@@ -12,7 +12,7 @@ console.log("Cargando juegos");
 var config = {
 	game_canvas : undefined,
 	game_ctx : undefined,
-	game_background : "ventormenta.jpg",
+	game_background : undefined,
 
 	game_state : 0
 }
